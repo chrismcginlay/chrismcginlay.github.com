@@ -4,29 +4,37 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Chris McGinlay by chrismcginlay</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
   </head>
   <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/chrismcginlay">View On GitHub</a></li>
+        </nav>
+      </div><!-- end header -->
+
     <div class="wrapper">
-      <header>
-        <h1 class="header">Chris McGinlay</h1>
-        <p class="header">Python, Django, microcontrollers, machine learning.</p>
 
-
-
-        <ul>
-          <li><a class="buttons github" href="https://github.com/chrismcginlay">GitHub Profile</a></li>
-        </ul>
-
-      </header>
       <section>
+        <div id="title">
+          <h1>Chris McGinlay</h1>
+          <p>Python, Django, microcontrollers, machine learning.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/chrismcginlay">chrismcginlay</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
+        </div>
+
         <h3>Welcome</h3>
 
 <p>This is my personal page, where I have gathered together links to various technical projects I am involved in and to courses I have studied.</p>
@@ -44,7 +52,7 @@ The course explores the systematic, effective and automatic debugging of large p
 <p>To date I have worked exclusively with the <a href="http://www.arduino.cc/en/Main/arduinoBoardUno">Arduino UNO</a> micro-controller. Language is <a href="http://wiring.org.co/">Wiring</a>, C++ based. Projects brought to operational stage have included:</p>
 
 <ul>
-<li>Line following buggy. <a href="https://plus.google.com/photos/110075889815392203358/albums/5830505100129715073?authkey=CL6ys7nOwZyIXw">Stills</a>
+<li>Line following buggy. <a href="https://plus.google.com/photos/110075889815392203358/albums/5830505100129715073?authkey=CL6ys7nOwZyIXw">Stills + Video</a>
 </li>
 <li>Electronic die. <a href="https://github.com/chrismcginlay/ucontrol">Code repository</a> | <a href="https://plus.google.com/photos/110075889815392203358/albums/5830503522515801105?authkey=CMah5u2xmuHGPw">Stills+Video</a>
 </li>
@@ -66,10 +74,11 @@ The course explores the systematic, effective and automatic debugging of large p
 <li><a href="http://www.kaggle.com/users/26471/grunthus#profile-results">Kaggle Profile</a></li>
 </ul><h3>Blender 3D Course Development</h3>
 
-<p>I have developed a course for teaching Blender 3D (<a href="http://www.blender.org">www.blender.org</a>) to complete novice students. The course already covers all the basic concepts, with exemplar blend files at various stages of completion.
-Links to follow.</p>
+<p>I have developed a course for teaching Blender 3D (<a href="http://www.blender.org">www.blender.org</a>) to complete novice students. The course already covers the basic concepts, with staged exemplar blend files. As to whether or not the course is complete - it's an introduction; some of the later sections are sketchy. Overall it could do with some more exemplar files too. If you want to join me on adding to this project, please contact me (link to G+ below)</p>
 
-<h3>Lean Launchpad - Eduduck</h3>
+<ul>
+<li><a href="https://docs.google.com/folder/d/0B_5Czrc-P3APWHZCN24wdWlDdlk/edit">Blender Intro</a></li>
+</ul><h3>Lean Launchpad - Eduduck</h3>
 
 <p>In October 2012, I completed a business startup course, given by <a href="http://steveblank.com/">Steve Blank</a> and hosted on Udacity.com. This explored the fundamental differences between a Startup company and an established company, defining the essential activity of a Startup as a <strong>search</strong> for a repeatable business model. This was a hands-on course; it involved speaking to members of the public to test ideas. Everything was backed up with formal analysis. Really enjoyable delivery by Steve Blank, full of enthusiasm, totally recommendable to <em>anyone</em>.</p>
 
@@ -78,13 +87,11 @@ Links to follow.</p>
 <a href="http://www.udacity.com/overview/Course/ep245/CourseRev/1">EP245 How to Build a Startup</a>.</li>
 <li>
 <a href="http://www.businessmodelgeneration.com/canvas">Business Model Generation</a> - technique used.</li>
-</ul><p>Following on from the course, I have continued to research an online education business model, with the working title of 'EduDuck'. This is hosted on github via <a href="https://github.com/mrintegrity" class="user-mention">@mrintegrity</a>, who is involved in model discovery and exploration.</p>
+</ul><p>Following on from the course, I have continued to research an online education business model, with the working title of 'EduDuck'. The code hosted in a private repository on github via <a href="https://github.com/mrintegrity" class="user-mention">@mrintegrity</a>. </p>
 
 <ul>
 <li>
 <a href="www.eduduck.com">EduDuck</a> Business Model Canvas exploration.</li>
-<li>
-<a href="https://github.com/mrintegrity/eduduck">GitHub</a> EduDuck Django codebase.</li>
 </ul><h3>Miscellaneous</h3>
 
 <ul>
@@ -92,12 +99,10 @@ Links to follow.</p>
 <li>Visit my <a href="https://plus.google.com/110075889815392203358/about">Google+</a> profile.</li>
 </ul>
       </section>
-      <footer>
-        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
-      </footer>
+
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-		          <script type="text/javascript">
+              <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
